@@ -1,0 +1,68 @@
+html {
+    height: 100%;
+}
+
+body {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-image: url(../res/Background.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  
+}
+
+#NL {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 50%;
+    background-color: transparent;
+    text-align:left;
+    clear:both;
+    color:#FFFFFF
+}
+
+#AL {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: transparent;
+    text-align:left;
+    clear:both;
+    color:#FFFFFF;
+}
+
+.division {
+    width: 33%;
+    display: inline-block;
+}
+
+#NL_West {
+
+}
+
+#NL_Central {
+
+}
+
+#NL_East {
+
+}
+
+#AL_West {
+
+}
+
+#AL_Central {
+
+}
+
+#AL_East {
+
+}
