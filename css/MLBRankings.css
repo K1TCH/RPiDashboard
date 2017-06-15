@@ -1,5 +1,7 @@
 html {
     height: 100%;
+    padding:0;
+    margin:0;
 }
 
 body {
@@ -40,7 +42,36 @@ body {
 
 .division {
     width: 33%;
+    height: 100%;
     display: inline-block;
+    padding: none;
+}
+
+ol {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #c2c2c2;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    /*display: table-row;
+    height: 20%;*/
+    vertical-align: middle;
+    text-align: center;
+    display: table-row;
+}
+
+span {
+    display: table-cell;
+    border-top: 1px solid green;
+    text-align: center;
+    vertical-align: middle;
 }
 
 #NL_West {
